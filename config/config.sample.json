@@ -1,0 +1,11 @@
+{
+  "HOST": "smtp.gmail.com",
+  "PORT": "587",
+  "RECIPIENT_EMAIL_ADDRESS": "your recipient email",
+  "SENDER_EMAIL_ADDRESS": "your sender email",
+  "PASSWORD": "your password",
+  "SUBJECT": "TEST EMAIL WITH GMAIL",
+  "MESSAGE": "Hello MartialoDev, I would like to subscribe to your channel"
+
+}
+
