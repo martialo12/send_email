@@ -22,7 +22,8 @@ logging.basicConfig(
 
 def send_email(subject: str, msg: str) -> None:
     try:
-        server = smtplib.SMTP('smtp.gmail.com:587')
+        server = smtplib.SMTP(EmailConfig.HOST+':'+EmailConfig.PORT)
+
         server.ehlo()
         server.starttls()
         server.login(EmailConfig.SENDER_EMAIL_ADDRESS, EmailConfig.PASSWORD)
